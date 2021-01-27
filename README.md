@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/AKB4R1/FOTO/blob/main/SAVE_20201214_222828.jpg20190417164406" width="128" height="128"/>
+<img src="https://github.com/AKB4R1/FOTO/blob/main/SAVE_20201214_222828.jpg" width="128" height="128"/>
 </p>
 <p align="center">
 <a href="#"><img title="AKB4R" src="https://img.shields.io/badge/AKB4R-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
