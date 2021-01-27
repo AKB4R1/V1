@@ -21,7 +21,7 @@ const ownermenu = (prefix) => {
 ╰─➤ *${prefix}runtime*
 ╰─➤ *${prefix}turnoff*
 ╰─➤  *${prefix}getses*
-╭┈─────A187
+╭┈─────AKB4R
 ╰─❁۪۪`
 }
 exports.ownermenu = ownermenu
