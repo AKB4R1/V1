@@ -36,7 +36,7 @@ const mediamenu = (prefix) => {
 ╰─➤ *${prefix}shorturl [linkWeb]*
 ╰─➤ *${prefix}animesaran*
 ╰─➤ *${prefix}animesaran2*
-╭┈─────A187
+╭┈─────AKB4R
 ╰─❁۪۪`
 }
 exports.mediamenu = mediamenu
