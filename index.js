@@ -1,7 +1,7 @@
 //gw mencium bau bau Nyolong case 
 //Modal dikit napa
-//Kasi credit MhankBar2 Maslent Xptn 
-//dan juga Subscribe Aris187 ID jgn cuma ganti nama bot
+//Kasi credit RIFKY
+//dan juga jgn cuma ganti nama bot
 //Jangan Ngontoloan Njir 
 //anak Babi
 const {
@@ -80,13 +80,13 @@ const bacotrandom = JSON.parse(fs.readFileSync('./src/bacot.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const user = JSON.parse(fs.readFileSync('./src/user.json'))
 ban = []
-cr = '*NOEER BOT*'
-vz = '*Terima Kasih Sudah Daftar Di NOEER BOT*'
+cr = '*AKB4R*'
+vz = '*Terima Kasih Sudah Daftar Di AKB4R*'
 const vcard = 'BEGIN:VCARD\n' //
             + 'VERSION:3.0\n' //
-            + 'FN: A187ID\n' //
-            + 'ORG:Creator NOEER;\n' //
-            + 'TEL;type=CELL;type=VOICE;waid=6285722553839:+6285722553839 \n' //
+            + 'FN: RIFKY\n' //
+            + 'ORG:Creator AKB4R;\n' //
+            + 'TEL;type=CELL;type=VOICE;waid=6281368965962:+6281368965962 \n' //
             + 'END:VCARD'
 prefix = '!'
 blocked = []
@@ -275,22 +275,22 @@ async function starts() {
 				only: {
 					group: '[❗] Perintah ini hanya bisa di gunakan dalam group! ❌',
 					premium: '[❗] Perintah ini hanya bisa di gunakan user premium! ❌',
-					mod: '[❗] Perintah ini hanya bisa di gunakan untuk user mod NOEER ❌',
+					mod: '[❗] Perintah ini hanya bisa di gunakan untuk user mod❌',
 					benned: 'Anda Ke Band Silahkan Hubungi Owner Agar Membuka Band Anda',
 					ownerG: '[❗] Lu spe owner? ini fitur khusus owner njierrr ❌',
 					ownerB: '[❗] Lu spe owner? ini fitur khusus owner njierrr ❌',
-					userB: `──「 DAFTAR 」──\nMaaf sepertinya kamu belum terdaftar di NOEERBOT\nDaftar untuk menikmati fitur bot ini!\n\n!daftar Aris|19\n\n──「 NOEERBOT 」──`,
+					userB: `──「 DAFTAR 」──\nMaaf sepertinya kamu belum terdaftar di AKB4R\nDaftar untuk menikmati fitur bot ini!\n\n!daftar Rifky|19\n\n──「 AKB4R 」──`,
 					admin: '[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌',
 					Badmin: ' [❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌',
 				}
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6285722553839@s.whatsapp.net"]
-			const mod = [ownerNumber,"6285722553839@s.whatsapp.net"]
-			const adminbotnumber = ["6285722553839@s.whatsapp.net"]
-			const frendsowner = ["6285722553839@s.whatsapp.net"]
-			const premium = ["6285722553839@s.whatsapp.net"]
+			const ownerNumber = ["6281368965962@s.whatsapp.net,6285834023793@s.whatsapp.net"]
+			const mod = [ownerNumber,"6281368965962@s.whatsapp.net"]
+			const adminbotnumber = ["6281368965962@s.whatsapp.net"]
+			const frendsowner = ["6281368965962@s.whatsapp.net"]
+			const premium = ["6281368965962@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
 		    const tescuk = ["0@s.whatsapp.net"]
@@ -422,7 +422,7 @@ async function starts() {
 					case 'NOEERgroup':
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
-					client.sendMessage(from, '*NOEER GROUP*\n\nLink : https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs*', text, { quoted: mek })
+					client.sendMessage(from, '*AKB4R GROUP*\n\nLink : https://chat.whatsapp.com/EBZTH5CqacF5jI4zXvjjPI*', text, { quoted: mek })
 					break
 					case 'funmenu':
 					if (isBanned) return reply(mess.only.benned)    
@@ -662,7 +662,7 @@ async function starts() {
 					if (!isPremium) return reply('Anda bukan Member Premium, silakan hubungi owner atau ketik *!daftarvip* untuk membeli akses Premium!' ,text, { quoted: mek })
 					me = client.user
 					uptime = process.uptime()
-					client.sendMessage(from,  `*──────────────────*\n*Nama bot:* *${me.name}*\n*─────────────────*\n『 *𝐕𝐈𝐏 𝐔𝐒𝐄𝐑*』\n*──────────────────*\n*•Nomor:* *${sender.split("@s.whatsapp.net")[0]}*\n*•Status:* *ACTIVE*\n*──────────────────*\n*Status Bot:* *${kyun(uptime)}*\n*──────────────────*` , text, { quoted: mek, })
+					client.sendMessage(from,  `*──────────────────*\n*nama bot:* *${me.name}*\n*─────────────────*\n『 *𝐕𝐈𝐏 𝐔𝐒𝐄𝐑*』\n*──────────────────*\n*•nomor:* *${sender.split("@s.whatsapp.net")[0]}*\n*•Status:* *ACTIVE*\n*──────────────────*\n*Status Bot:* *${kyun(uptime)}*\n*──────────────────*` , text, { quoted: mek, })
 					break
 					case 'gambar':
 					if (isBanned) return reply(mess.only.benned)    
@@ -681,14 +681,14 @@ async function starts() {
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = '╭────「 *PREMIUM👑* 」──*\n│+ *Number* : \n│+ *Expired*: *30 Days*\n│+ *Status*: *ACTIVE*\n│ Thx for Upgrade to Premium🥰\n*╰──────「 *NOEER* 」────'
+						teks = '╭────「 *PREMIUM👑* 」──*\n│+ *Number* : \n│+ *Expired*: *30 Days*\n│+ *Status*: *ACTIVE*\n│ Thx for Upgrade to Premium🥰\n*╰──────「 *AKB4R* 」────'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
 						mentions(teks, mentioned, true)
 						client.sendMessage(from, mentioned)
 					} else {
-						mentions(`╭────「 *PREMIUM👑* 」──*\n│+ *Number* : @${mentioned[0].split('@')[0]}\n│+ *Expired*: *30 Days*\n│+ *Status*: *ACTIVE*\n│ Thx for Upgrade to Premium🥰\n*╰──────「 *NOEER* 」────`, mentioned, true)
+						mentions(`╭────「 *PREMIUM👑* 」──*\n│+ *Number* : @${mentioned[0].split('@')[0]}\n│+ *Expired*: *30 Days*\n│+ *Status*: *ACTIVE*\n│ Thx for Upgrade to Premium🥰\n*╰──────「 *AKB4R* 」────`, mentioned, true)
 					client.sendMessage(from, mentioned)
 				    }
 					break
@@ -700,28 +700,28 @@ async function starts() {
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = '╭────「 *PREMIUM👑* 」──*\n│+ *Number* : \n│+ *Status*: *DEACTIVE*\n│ See u for next order🙂\n*╰──────「 *NOEER* 」────'
+						teks = '╭────「 *PREMIUM👑* 」──*\n│+ *Number* : \n│+ *Status*: *DEACTIVE*\n│ See u for next order🙂\n*╰──────「 *AKB4R* 」────'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
 						mentions(teks, mentioned, true)
 						client.sendMessage(from, mentioned)
 					} else {
-						mentions(`╭────「 *PREMIUM👑* 」──*\n│+ *Number* : @${mentioned[0].split('@')[0]}\n│+ *Status*: *DEACTIVE*\n│ See u for next order🙂\n*╰──────「 *NOEER* 」────`, mentioned, true)
+						mentions(`╭────「 *PREMIUM👑* 」──*\n│+ *Number* : @${mentioned[0].split('@')[0]}\n│+ *Status*: *DEACTIVE*\n│ See u for next order🙂\n*╰──────「 *AKB4R* 」────`, mentioned, true)
 					client.sendMessage(from, mentioned)
 				    }
 					break
-					case 'NOEERadmin':
+					case 'AKB4Radmin':
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
 					tod = await getBuffer(`https://i.ibb.co/XDwBVDJ/1f2652c622fa.jpg`)
-					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT NOEER ✨* 」\n*│+wa.me/6285722553839*╰──────*「 *NOEER* 」*────*\n\n*_JIKA INGIN MENJADI ADMIN  NOEER BOT_*\n*_Ketik /iklan_*' })
+					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT AKB4R ✨* 」\n*│+wa.me/6281368965962*╰──────*「 *AKB4R* 」*────*\n\n*_JIKA INGIN MENJADI ADMIN AKB4R BOT_*\n*_Ketik /iklan_*' })
 					break
 					case 'premiumcek':
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
 					sa = await getBuffer(`https://i.ibb.co/PcQ6tsB/79ac87b9358c.jpg`)
-					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/6285722553839*╰──────*「 * NOEER* 」*────*\n\n*_JIKA INGIN MENJADI PREMIUM USER  NOEER BOT_*\n*_Ketik !daftarvip*' })
+					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/6281368965962*╰──────*「 *AKB4R* 」*────*\n\n*_JIKA INGIN MENJADI PREMIUM USER  AKB4R BOT_*\n*_Ketik !daftarvip*' })
 					break
 					case 'cekmod': 
  
@@ -1101,7 +1101,7 @@ async function starts() {
 				
 					me = client.user
 					uptime = process.uptime()
-					teks = `*Nama bot* : ${me.name}\n*Author* : *maslent*\n*Nomor Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total Block Contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Public:* ON\n*Total User Premium*: ${premium.length}\n*Total Chat* : ${totalchat.length}\n*Instagram* : *https://instagram.com/_sadboy.ig*\n*Youtube A187ID* : *https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg*`
+					teks = `*Nama bot* : ${me.name}\n*Author* : *rifky*\n*Nomor Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total Block Contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Public:* ON\n*Total User Premium*: ${premium.length}\n*Total Chat* : ${totalchat.length}\n*Instagram* : *https://instagram.com/kamaadoo_tanjiroo*\n*Youtube REYZA* : *https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg*`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -1111,7 +1111,7 @@ async function starts() {
 					if (isBanned) return reply(mess.only.benned)    
 					me = client.user
 					uptime = process.uptime()
-					teks = `*Nama bot* : ${me.name}\n*Anuther* : * NOEER*\n*Nomor Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total Block Contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Public:* OFF`
+					teks = `*Nama bot* : ${me.name}\n*Anuther* : *AKB4R*\n*Nomor Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total Block Contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Public:* OFF`
 					buffer111 = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer111, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -1409,13 +1409,13 @@ async function starts() {
 					if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					if (!isOwner) return reply(mess.only.ownerB)    
-					teks = `\`\`\`╭────*「 *TOTAL USER BOT  NOEER👑* 」\n\`\`\``
+					teks = `\`\`\`╭────*「 *TOTAL USER BOT 👑* 」\n\`\`\``
 					no = 0
 					for (let hehehe of user) {
 						no += 1
 						teks += `\`\`\`[${no.toString()}]\`\`\` @${hehehe.split('@')[0]}\n`
 					}
-					teks += `│+ Total Pengguna : ${user.length}\n╰──────*「 * NOEER* 」*────`
+					teks += `│+ Total Pengguna : ${user.length}\n╰──────*「 *AKB4R* 」*────`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": user}})
 					break
 				case 'ttp':
@@ -1567,7 +1567,7 @@ async function starts() {
 					for (let V of premium) {
 						teks += `│+  @${V.split('@')[0]}\n`
 					}
-					teks += `│+ Total : ${premium.length}\n╰──────*「 * NOEER* 」*────`
+					teks += `│+ Total : ${premium.length}\n╰──────*「 *AKB4R* 」*────`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": premium}})
 					break
                 case 'quotemaker':
@@ -2428,7 +2428,7 @@ if (isBanned) return reply(mess.only.benned)
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6285722553839@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6281368965962@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
                     case 'request':
@@ -2443,7 +2443,7 @@ if (isBanned) return reply(mess.only.benned)
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6285722553839@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6281368965962@s.whatsapp.net', options, text, {quoted: mek})
                     reply('REQUEST ANDA TELAH SAMPAI ke owner BOT, Requests palsu/main2 tidak akan ditanggapi.')
                     break
 			 case 'request':
@@ -2458,7 +2458,7 @@ if (isBanned) return reply(mess.only.benned)
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6285722553839@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6281368965962@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Request telah di laporkan ke owner BOT, request  yang dapat membebani owner tidak akan ditanggapi.')
                     break
 				case 'meme': 
@@ -2961,13 +2961,13 @@ if (isBanned) return reply(mess.only.benned)
 					if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					if (!isOwner) return reply(mess.only.ownerB)    
-					teks = `\`\`\`╭────*「 *TOTAL USER BOT  NOEER👑* 」\n\`\`\``
+					teks = `\`\`\`╭────*「 *TOTAL USER BOT👑* 」\n\`\`\``
 					no = 0
 					for (let hehehe of user) {
 						no += 1
 						teks += `\`\`\`[${no.toString()}]\`\`\` @${hehehe.split('@')[0]}\n`
 					}
-					teks += `│+ Total Pengguna : ${user.length}\n╰──────*「 *NOEER* 」*────`
+					teks += `│+ Total Pengguna : ${user.length}\n╰──────*「 *AKB4R* 」*────`
 					 client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": user}})
 					break
 				case 'nsfwtrap':
