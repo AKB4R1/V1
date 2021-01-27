@@ -57,7 +57,7 @@ const listmenu = (prefix) => {
 ╰─➤  *${prefix}edotensei*
 ╰─➤  *${prefix}listadmins*
 ╰─➤  *${prefix}ping*
-╠══✪〘 FUN 〙✪══ [Maintenance!!]*
+╠══✪〘 FUN 〙✪══*
 ║
 ╰─➤ *${prefix}tebakgambar*
 ╰─➤ *${prefix}caklontong*
@@ -84,7 +84,7 @@ const listmenu = (prefix) => {
 ╰─➤ *${prefix}cantikcek*
 ╰─➤ *${prefix}persengay*
 ║
-╠══✪〘 MAKER 〙✪══ *[Maintenance!!]*
+╠══✪〘 MAKER 〙✪══*
 ║
 ╰─➤ *${prefix}tahta* [iki]
 ╰─➤ *${prefix}pronlogo* [text|text]
@@ -226,9 +226,9 @@ const listmenu = (prefix) => {
 ║
 ╚═ Ketik *${prefix}info* untuk melihat list informasi tentang bot
        Ketik *${prefix}owner* untuk melihat kontak owner
-         Mau donasi? 085722553839 (Gopay)
+         Mau donasi? 081368965962(PULSA TELKOMSEL)
          Jika tidak ingin donasi bantu Follow Ig aja kak 
-         _instagram.com/_sadboy.ig
-    _* Aris187 ID © 2021*_`
+         _instagram.com/kamaadoo_tanjiroo
+    _* RIFKY © 2021*_`
 }
 exports.listmenu = listmenu
