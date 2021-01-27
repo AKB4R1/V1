@@ -1,11 +1,11 @@
 <p align="center">
-<img src="https://static.wikia.nocookie.net/kenja-no-mago/images/8/85/Sizilien_von_klode_1.jpg/revision/latest/top-crop/width/300/height/300?cb=20190417164406" width="128" height="128"/>
+<img src="https://github.com/AKB4R1/FOTO/blob/main/SAVE_20201214_222828.jpg20190417164406" width="128" height="128"/>
 </p>
 <p align="center">
-<a href="#"><img title="XPTNNBOT" src="https://img.shields.io/badge/XPTNNBOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="AKB4R" src="https://img.shields.io/badge/AKB4R-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/XP-TN"><img title="Author" src="https://img.shields.io/badge/Author-XP-TN-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/AKB4R1"><img title="Author" src="https://img.shields.io/badge/Author-AKB4R-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/XP-TN/XP-TNNBOT/followers"><img title="Followers" src="https://img.shields.io/github/followers/XP-TN?color=blue&style=flat-square"></a>
@@ -19,11 +19,11 @@
 ## Clone this project
 
 ```bash
-> git clone https://github.com/XP-TN/XPTNNBOTV
+> git clone https://github.com/AKB4R1
 ```
 
 ```bash
->Command BOT $
+>Command BOT !
 ```
 
 ## Install the dependencies:
@@ -31,7 +31,7 @@ Before running the below command, make sure you're in the project directory that
 you've just cloned!!
 
 ```bash
-> cd XPTNNBOT
+> cd V1
 > bash install.sh
 ```
 
@@ -80,4 +80,4 @@ you've just cloned!!
 ## Group
 * [`WhatsApp`](Error waiting)
 ### Donate
-* [`Saweria`](https://saweria.co/donate/agung1)
+* [`Saweria`](Error waiting)
