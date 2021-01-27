@@ -1,5 +1,5 @@
 {
-  "name": "A187-ID",
+  "name": "AKB4R",
   "version": "0.0.2",
   "description": "No comment",
   "main": "index.js",
@@ -46,10 +46,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mhankbarbar/termux-wabot.git"
+    "url": "git+https://github.com/AKB4R1/V1.git"
   },
   "bugs": {
-    "url": "https://github.com/mhankbarbar/termux-wabot/issues"
+    "url": "https://github.com/AKB4R1/V1/issues"
   },
-  "homepage": "https://github.com/mhankbarbar/termux-wabot#readme"
+  "homepage": "https://github.com/AKB4R1/V1#readme"
 }
