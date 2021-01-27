@@ -20,7 +20,7 @@ const nsfwmenu = (prefix) => {
 ╰─➤ *${prefix}waifu2*
 ╰─➤ *${prefix}kodenuklir*
 ╰─➤ *${prefix}nekopoi*
-╭┈────A187
+╭┈────AKB4R
 ╰─❁۪۪`
 }
 exports.nsfwmenu = nsfwmenu
