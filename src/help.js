@@ -1,15 +1,15 @@
 const help = (prefix) => { 
 	return `
 ╭────┈ ↷
-┃□│✎┊NOEERBOT
+┃□│✎┊AKB4R
 ┃□│╭────────╯
-┃□││❀:ཻུ۪۪⸙Nama : NOEERBOT
-┃□││❀:ཻུ۪۪⸙Anuthor : Aris187 ID
-┃□││❀:ཻུ۪۪⸙IG : @_sadboy.ig
+┃□││❀:ཻུ۪۪⸙Nama :AKB4R
+┃□││❀:ཻུ۪۪⸙Author : Rifky akbar
+┃□││❀:ཻུ۪۪⸙IG : @kamaadoo_tanjiroo
 ┃□││❀:ཻུ۪۪⸙prefix : ${prefix}
-╰─────────────────┈ ❁ཻུ۪۪⸙͎
-A187 ID | SUBSCRIBE
-─────────────────┈ ❁۪۪
+╰─────────────────────┈ ❁ཻུ۪۪⸙͎
+ KAMAADOO_TANJIROO| FOLLOW
+──────────────────────┈ ❁۪۪
 
 ╭┈──────RULES
 ╰─➤⚒RULES📜
@@ -93,7 +93,7 @@ MASLENT
           ║▌│█║▌│ █║▌│█│║▌║
           ║▌│█║▌│ █║▌│█│║▌║
    
-             ©️ *ARIS187 ID*
+             ©️ *AKB4R BOT*
 
 `
 }
