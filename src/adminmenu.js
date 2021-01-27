@@ -36,7 +36,7 @@ const adminmenu = (prefix) => {
 ╰─➤  *${prefix}listadmins*
 ╰─➤  *${prefix}ping*
 
-╭┈─────A187ID
+╭┈─────AKB4R
 ╰─❁۪۪`
 }
 exports.adminmenu = adminmenu
