@@ -38,7 +38,7 @@ const makermenu = (prefix) => {
 ╰─➤ *${prefix}epep* [text]
 ╰─➤ *${prefix}glitch* [text]
 ╰─➤ *${prefix}jokerlogo [teks]*
-╭┈─────A187
+╭┈─────AKB4R
 ╰─❁۪۪`
 }
 exports.makermenu = makermenu
